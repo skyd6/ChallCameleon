@@ -1,0 +1,203 @@
+body {
+    width: 900px;
+    margin: auto;
+    background-color: #2F3848;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #f05768;
+    height: 75px;
+    border-radius: 5px;
+    border-bottom: cyan solid 3px;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: yellowgreen;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 15px;
+}
+
+#logo{
+    position: relative;
+    top: -37px;
+    right: -850px;
+}
+
+.facetwit{
+    width: 20px;
+    height: 20px;
+}
+
+
+h2 {
+    color: #13aacf;
+    font-style: bold;
+    font-size: 28px;
+    font-style: italic;
+    margin: 0px;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+a:visited{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+a:link{
+    color: yellowgreen;
+    text-decoration: underline;
+}
+
+#highlight {
+    position: relative;
+    margin: 1.2em 0;
+}
+
+#highlight h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #f05768;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+    padding: 0.5rem;
+}
+
+ul a:visited{
+    text-decoration: none;
+}
+
+ul a:link{
+    text-decoration: none;
+}
+
+#bigcameleon {
+    position:absolute;
+    width: 900px;
+}
+
+
+#titrephoto {
+    position: relative;
+    color: white;
+    width: 40%;
+    font-weight: bold;
+    height: 37px;
+    font-size: 20px ;
+    text-align: center;
+}
+
+#galerie{
+    width: 70%;
+    font-size: 0;
+}
+
+#imgfirst {
+    width: 290px;
+    height: 290px;
+    float: left;
+    position: absolute;
+    top: 911px;
+}
+
+#carre {
+    width: 300px;
+    height: 300px ;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    position: relative;
+    top: 574px;
+    left: 300px;
+}
+
+#photos{
+    position: relative;
+    top: 575px;
+    /* display: grid; */
+    /* grid-template-columns: 142.5px 142.5px 142.5px 142.5px; */
+    /* grid-template-rows: 25% 25% 25% 25%; */
+}
+
+.img{
+    width: 142.5px;
+    height: 142.5px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    padding: 0;
+}
+
+#bloc{
+    background-color: #004488;
+    height: 350px;
+    width: 290px;
+    position: relative;
+    top: -344px;
+    left: 68%;
+
+}
+
+#cadrebleu{
+    color: #00CCFF;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    }
+
+hr{
+    width: 80%;
+    border-color: #00CCFF;
+}
+
+.blocvert{
+    color: yellowgreen;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#inscrivez{
+    color: #00CCFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#copy{
+    text-align: center;
+    margin-top: 300px;
+    color: #00CCFF;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#photos :nth-child(10){
+    border: 5px solid red;
+    height: 132.5px;
+    width: 132.5px;
+}
+
+#galerie{
+    font-size: 0;
+}
